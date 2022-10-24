@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Montserrat:wght@400;700&family=Nunito&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap');
+
+:root{
+    --yellow-color:  #facc15;
+}
+body{
+    margin: 0;
+    font-family: 'Grape Nuts', cursive;
+}
+.nav{
+    height: 11vh;
+    background-color: var(--yellow-color);
+    
+}
+.nav-heading{
+    text-align: center;
+    text-size-adjust: 90px;
+    margin: 0;
+    font-size: 30px;
+    padding: 1rem 0;
+}
+
+
+.btn-div{
+    display: block;
+    margin: auto;
+    width: 50%;
+    
+    
+}
+.output-header{
+    margin-top: 5px;
+    margin-bottom: 0.5rem;
+    
+}
+
+.output-text{
+    margin-top: 1.5rem;
+    background-color: var(--yellow-color);
+    padding: 1rem 3rem;
+    
+}
+
+/* footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+.footer{
+    margin-top: 5.5rem;
+    background-color: var(--yellow-color);
+    height: 25vh;
+   
+}
+.footer .footer-heading{
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+.footer-para{
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    
+}
