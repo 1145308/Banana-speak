@@ -5,6 +5,24 @@
 :root{
     --yellow-color:  #facc15;
 }
+textarea{
+    width:  50%;
+    height: 15vh;
+    display: block;
+    border: solid black 1.5px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  #output {
+    border: 1px solid black;
+    height: 10vh;
+    width:  50%;
+    padding: 1rem;
+    margin: auto;
+  }
+
 body{
     margin: 0;
     font-family: 'Grape Nuts', cursive;
